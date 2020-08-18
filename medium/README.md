@@ -1,6 +1,6 @@
 # Medium Projects
 
-The following are the descriptions and learning outcomes of each medium-difficulty project (that I've completed thus far) by JetBrains Academy.
+The following are the descriptions and learning outcomes of each medium-difficulty project by JetBrains Academy.
 
 ### Simple Banking System (banking/)
 #### About
