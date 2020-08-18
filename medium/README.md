@@ -14,3 +14,10 @@ In this project, you will find out how the banking system works and learn about 
 If you’ve ever wanted to create games, this project will get you started! In this project you will code a Rock-Paper-Scissors-Lizard-Spock game, a more advanced version of Rock-Paper-Scissors, which can be played against the computer.
 #### Learning Outcomes
 A playable Rock-Paper-Scissors game, with a Player vs Computer mode. Practice using arrays, the Random library, formatted strings, and algorithms.
+
+
+### Numeric Matrix Processor (processor/)
+#### About
+Here’s a project for devoted matrix enthusiasts: learn to perform a variety of operations on matrices including addition, multiplication, finding the determinant, and dealing with inverse matrices. If you are working on your tech or math major, this project is a good chance for you to learn matrices in action and not just in your notebook.
+#### Learning Outcomes
+Apart from learning a whole lot about matrices, you will become familiar with the Math library, recursion, and the many ways of using nested lists in practice.
