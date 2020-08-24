@@ -16,14 +16,14 @@ Sometimes you need to read online documentation or find something on the Interne
 You will learn how HTTP works and how to handle its protocols using Python. You will also learn all about Python input/output, as well as parsing HTML.
 
 
-### To-Do List (...)
+### To-Do List (todolist/)
 #### About
 To-Do list can improve your work and personal life. You can use it to reduce the stress in your life and get more done in less time. It also helps you become more reliable for other people and save time for the best things in life. So let's implement it!
 #### Learning Outcomes
 To-Do list that will help you manage your tasks. You will practice using loops, conditions and statement branches. And also you will learn the basics of SQLAlchemy to manage SQLite database on python!
 
 
-### Smart Calculator (...)
+### Smart Calculator (calculator/)
 #### About
 Calculators are a very helpful tool that we all use on a regular basis. Why not create one yourself, and make it really special? In this project, you will write a calculator that not only adds, subtracts, and multiplies, but is also smart enough to remember your previous calculations.
 #### Learning Outcomes
