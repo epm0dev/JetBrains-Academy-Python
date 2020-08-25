@@ -9,7 +9,7 @@ Everybody remembers this paper-and-pencil game from childhood: Tic-Tac-Toe, also
 After finishing this project, you'll get to know a lot about planning and developing a complex program from scratch, using classes and functions, handling errors, and processing user input. You will also learn to use OOP (Object-Oriented Programming) in the process.
 
 
-### Text-Based Browser (...)
+### Text-Based Browser (browser/)
 #### About
 Sometimes you need to read online documentation or find something on the Internet from the command line or terminal. So, let's use Python to create a text-based browser! Of course, making a real, full-blown browser is a very difficult task. In this project, you'll create a very simple browser that will ignore JavaScript and CSS, won't have cookies, and will only process a limited set of tags. Still, it will be useful and, most importantly, fun to program!
 #### Learning Outcomes
