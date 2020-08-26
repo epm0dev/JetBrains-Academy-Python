@@ -30,7 +30,7 @@ Calculators are a very helpful tool that we all use on a regular basis. Why not 
 Apart from writing a useful program (everyone uses calculators!), you will learn a lot about lists, strings and dictionaries. You will also get closer experience with 2 important data structures: the stack and the queue.
 
 
-### Password Hacker (...)
+### Password Hacker (hacking/)
 #### About
 All sorts of creatures lurk around the Internet, including trolls, pirates, miners – and hackers. In this project you’ll wear the hat of a real hacker. You must connect to a secret server without knowing the password. Your task is to write a Python program that can hack this password, and do so in the quickest way possible.
 #### Learning Outcomes
