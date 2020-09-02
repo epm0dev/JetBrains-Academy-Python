@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!-- An HTML template which allows service center operators to process service tickets. -->
+<html lang="en">
+    <head>
+        <!-- Define the character set and title of the page. -->
+        <meta charset="utf-8">
+        <title>Operator Menu</title>
+    </head>
+    <body>
+        <!-- Display the quantity of service tickets of each service type left in the queue. -->
+        <div>Change oil queue: {{ O }}</div>
+        <div>Inflate tires queue: {{ T }}</div>
+        <div>Get diagnostic queue: {{ D }}</div>
+
+        <!-- Display a form containing a button and prompt for the operator to process the next service ticket. -->
+        <form method="post">
+            {% csrf_token %}
+            <button type="submit">Process next</button>
+        </form>
+    </body>
+</html>
