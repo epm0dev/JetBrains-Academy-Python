@@ -1,0 +1,18 @@
+{% extends "news/list.html" %}
+<!-- Override the parent template's content block. -->
+{% block content %}
+    <!-- Display the parent template's contents. -->
+    {{ block.super }}
+
+    <!-- Display a hyperlink which redirects the user to a page allowing them to create a new news article. -->
+    <a href="/news/create/">New Article</a>
+
+    <!-- Display a form which allows the user to query the list of news articles by title. -->
+    <form action="/news/" method="get">
+        <!-- Populate the form's input fields with the form object in the template's context. -->
+        {{ form }}
+
+        <!-- Display a button that allows the user to submit the form via a GET request. -->
+        <button type="submit">Submit</button>
+    </form>
+{% endblock content %}

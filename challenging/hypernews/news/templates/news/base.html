@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- A base HTML template from which all other templates are derived. -->
+<html lang="en">
+    <head>
+        <!-- Define the character set of the template and the title of the page. -->
+        <meta charset="UTF-8">
+        <title>HyperNews Portal</title>
+
+        <!-- Load static assets and link the css/base.css stylesheet to the template. -->
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    </head>
+    <body>
+        <!-- Display a header and declare an empty content block for child templates to fill with content. -->
+        <h2>Hyper news</h2>
+        {% block content %}{% endblock %}
+    </body>
+</html>

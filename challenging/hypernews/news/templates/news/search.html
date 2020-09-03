@@ -1,0 +1,9 @@
+{% extends "news/list.html" %}
+<!-- Override the parent template's content block. -->
+{% block content %}
+    <!-- Display the parent template's contents. -->
+    {{ block.super }}
+
+    <!-- Display a hyperlink that redirects the user back to the unfiltered main page. -->
+    <a href="/news/">Home</a>
+{% endblock content %}

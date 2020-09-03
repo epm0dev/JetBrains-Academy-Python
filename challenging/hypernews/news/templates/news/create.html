@@ -1,0 +1,24 @@
+{% extends "news/base.html" %}
+<!-- Override the parent template's content block. -->
+{% block content %}
+    <!-- Display a form that allows the user to create a new news article. -->
+    <form action="/news/create/" method="post">
+        {% csrf_token %}
+
+        <!-- Display a prompt and input field for the user to input the title of the article. -->
+        <label for="title">Article Title: </label>
+        <input id="title" type="text" name="title" required>
+        <div></div>
+
+        <!-- Display a prompt and input field for the user to input the text of the article. -->
+        <label for="text">Article Text: </label>
+        <input id="text" type="text" name="text" required>
+        <div></div>
+
+        <!-- Display a button that allows the user to submit the form via a POST request. -->
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Display a hyperlink that redirects the user back to the unfiltered main page. -->
+    <a href="/news/">Home</a>
+{% endblock content %}

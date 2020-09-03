@@ -1,0 +1,22 @@
+{% extends "news/base.html" %}
+<!-- Override the parent template's content block. -->
+{% block content %}
+    <!-- Display the parent template's contents. -->
+    {{ block.super }}
+
+    <!-- Regroup the list of articles in the template's context by their creation date. -->
+    {% regroup articles|dictsortreversed:"created" by created|slice:":-9" as news_list %}
+
+    <!-- Iterate through all of the groups in the list of grouped news articles. -->
+    {% for news in news_list %}
+        <!-- Display a header containing the value of the current group's grouper field. -->
+        <h4>{{ news.grouper }}</h4>
+
+        <!-- Display an unordered list of hyperlinks to each news article's individual page. -->
+        <ul>
+            {% for i in news.list %}
+                <li><a href="/news/{{ i.link }}/">{{ i.title }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock content %}
