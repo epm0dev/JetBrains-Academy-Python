@@ -42,3 +42,10 @@ You’ll learn how to use mathematics and Python in everyday tasks, use third-pa
 This short code challenge can help the local zoo look after its denizens. You will create a tool for monitoring animals and their status.
 #### Learning Outcomes
 This project is aimed at our beginners. It helps you understand some syntax basics and learn how to work with variables, data storage types such as lists, and while loops.
+
+
+### Regex Engine (regex/)
+#### About
+Regular expressions are a fundamental part of computer science and natural language processing. In this project, you will write an extendable regex engine that can handle basic regex syntax, including literals (a, b, c, etc.), wild-cards (.), and metacharacters (?, \*, +, ^, $).
+#### Learning Outcomes
+Learn about the regex syntax, practice working with parsing and slicing, and get more familiar with boolean algebra and recursion.
