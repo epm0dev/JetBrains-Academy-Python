@@ -1,0 +1,33 @@
+<!-- Extend the base HTML template and override its content block. -->
+{% extends 'base.html' %}
+{% block content %}
+    <!-- Display a header containing the user's username followed by a horizontal rule. -->
+    <h2>{{ user.username }}</h2>
+    <hr>
+
+    <!-- Include the 'divlist.html' template, displaying a list of the user's resumes/vacancies, followed by a
+    horizontal rule. -->
+    {% include 'divlist.html' %}
+    <hr>
+
+    <!-- If there is a relative URL and prompt in the template's context, display a form allowing the user to create a
+    new resume/vacancy. -->
+    {% if href and prompt %}
+        <!-- Display the prompt from the template's context. -->
+        <h4>{{ prompt}}</h4>
+
+        <!-- Display a form that allows the user to input a description and which sends a POST request to the relative
+        path from the template's context when submitted. -->
+        <form method="post" action="{{ href }}">
+            {% csrf_token %}
+
+            <!-- Display a single input field, labeled 'Description', for the user to input the description of the new
+            resume/vacancy. -->
+            <label for="desc">Description</label>
+            <input name="description" id="desc">
+
+            <!-- Display a button that allows the user to submit the form. -->
+            <button type="submit">Create</button>
+        </form>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,14 @@
+<!-- Extend the base HTML template and override its content block. -->
+{% extends 'base.html' %}
+{% block content %}
+    <!-- Display a form from the template's context to allow the user to create a new user. -->
+    <form method="post" action="signup">
+        {% csrf_token %}
+
+        <!-- Display the form from the template's context as a table. -->
+        <table>{{ form.as_table }}</table>
+
+        <!-- Display a button that allows the user to submit the form. -->
+        <button type="submit">Sign Up</button>
+    </form>
+{% endblock %}

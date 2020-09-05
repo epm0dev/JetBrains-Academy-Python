@@ -1,0 +1,5 @@
+<!-- A small template chunk used by other templates to iterate over a list of items that have 'author' and 'description'
+fields, displaying each in its own <div> element. -->
+{% for item in list %}
+    <div>{{item.author}}: {{item.description}}</div>
+{% endfor %}
