@@ -14,7 +14,7 @@ The times of sitting down with a coffee and reading a newspaper seem to have pas
 #### Learning Outcomes
 You will learn the basics of Django: handle data through HTTP and work with templates. In addition, you will gain new skills working with JSON files and Python DateTime type.
 
-### HyperJob Agency (...)
+### HyperJob Agency (hyperjob/)
 #### About
 Web services are useful to share information almost instantly. You publish a resume, and in five minutes an employer is inviting you to the interview. Moreover, there are many employees and employers are meeting each other at the same place. With the help of Django, you'll create this application for the HyperJob agency.
 #### Learning Outcomes
