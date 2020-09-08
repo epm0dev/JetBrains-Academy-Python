@@ -1,5 +1,5 @@
 # JetBrains-Academy-Python
-Solutions to projects that are a part of the JetBrains Academy Python curriculum.
+Solutions to projects that are a part of the JetBrains Academy Python Developer curriculum.
 
 ### Project Difficulty
 The following are the descriptions of each difficulty level as described by JetBrains Academy.
